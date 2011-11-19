@@ -1,0 +1,6 @@
+hey, just clone this repo as ~/.vim, instead of trying it to merge it into your home directory.
+Create a symbolic link to ~/.vim/.vimrc and you should be good to go.
+
+To add a bundle (plugin), find it on github, then run:
+
+    git submodule add <url> bundle/<name>
